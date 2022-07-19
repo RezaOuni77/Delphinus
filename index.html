@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>
@@ -12,21 +10,21 @@
 </head>
 
 <body>
-    <div id="topheader">
+    <div class="topheader">
         <div class="container">
-            <div class="top-menu">
+            <div class="top-menu topbar">
                 <div class="top-menu-left">
-                    <ul>
+                    <ul class="left">
                         <li>
-                            <a href="#">EN</a>
+                            <a href="#">en</a>
                         </li>
                         <li>
-                            <a href="#">USD</a>
+                            <a href="#">usd</a>
                         </li>
                     </ul>
                 </div>
                 <div class="top-menu-right">
-                    <ul>
+                    <ul class="right">
                         <li>
                             <a href="#">log in</a>
                         </li>
@@ -44,22 +42,29 @@
             </div>
         </div>
     </div>
-    <div id="bottomheader">
-        <div class="container">
-            <div class="bottom_menu">
+
+    <div class="bottomheader">
+        <div class="container-content">
+            <div class="bottom-menu">
                 <div class="logo">
                     <img src="../assets/images/logo.png" alt="">
                 </div>
                 <div class="main-menu">
-                    <ul>
+                    <ul class="menu-nav">
                         <li>
-                            <a href="#">home</a>
+                            <a href="#">home
+                                <i class="fa-solid fa-caret-down"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#">catalog</a>
+                            <a href="#">catalog
+                                <i class="fa-solid fa-caret-down"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#">blog</a>
+                            <a href="#">blog
+                                <i class="fa-solid fa-caret-down"></i>
+                            </a>
                         </li>
                         <li>
                             <a href="#">about us</a>
@@ -69,11 +74,197 @@
                         </li>
                     </ul>
                 </div>
-                <div class="search">
-
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="hero">
+        <div class="container">
+            <div class="hero-slider">
+                <div class="hero-pictures">
+                    <img src="assets/images/products_slider_product_1.webp" />
+                    <div class="hero-price">
+                        <span>after room chair</span>
+                        <p>$340.00</p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="hero-pictures">
+                    <img src="assets/images/products_slider_product_2.webp" />
+                    <div class="hero-price">
+                        <span>average thermostats</span>
+                        <p>$340.00</p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="hero-pictures">
+                    <img src="assets/images/products_slider_product_3.webp" />
+                    <div class="hero-price">
+                        <span>bigger room chair</span>
+                        <p>$340.00</p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rooms">
+        <div class="left-room">
+            <div class="description">
+                <span>living room</span>
+                <br>
+                <button class="shop-now">shop now</button>
+            </div>
+        </div>
+        <div class="center-room">
+            <div class="description">
+                <span>living room</span>
+                <br>
+                <button class="shop-now">shop now</button>
+            </div>
+        </div>
+        <div class="right-room">
+            <div class="description">
+                <span>living room</span>
+                <br>
+                <button class="shop-now">shop now</button>
+            </div>
+        </div>
+    </div>
+    <div class="wave">
+        <i class="fa-solid fa-water"></i>
+        <span>FEATURED PRODUCTS</span>
+        <a href="#">see all</a>
+    </div>
+    <div class="photo-gallery">
+        <div class="container-content">
+            <div class="gallery">
+                <a href="#"><img src="assets/images/product-1_grande.webp" /></a>
+                <div class="hero-price price">
+                    <span>after room chair</span>
+                    <p>$340.00</p>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <a href="#"><img src="assets/images/product-2_grande.webp" /></a>
+                <div class="hero-price price">
+                    <span>after room chair</span>
+                    <p>$340.00</p>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <a href="#"><img src="assets/images/product-3_1b0b33c4-fd7d-483f-8a23-57a7a8088d96_grande.webp" /></a>
+                <div class="hero-price price">
+                    <span>after room chair</span>
+                    <p>$340.00</p>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <a href="#"><img src="assets/images/product-4_grande.webp" /></a>
+                <div class="hero-price price">
+                    <span>after room chair</span>
+                    <p>$340.00</p>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <a href="#"><img src="assets/images/product-5_grande.webp" /></a>
+                <div class="hero-price price">
+                    <span>after room chair</span>
+                    <p>$340.00</p>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <a href="#"><img src="assets/images/product-6_74d45e70-77e6-4a41-934e-0b4c05c765b9_grande.webp" /></a>
+                <div class="hero-price price">
+                    <span>after room chair</span>
+                    <p>$340.00</p>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <a href="#"><img src="assets/images/product-7_grande.webp" /></a>
+                <div class="hero-price price">
+                    <span>after room chair</span>
+                    <p>$340.00</p>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <a href="#"><img src="assets/images/product-9_469d705d-2f43-4fe1-938d-5557a1f18954_grande.webp" /></a>
+                <div class="hero-price price">
+                    <span>after room chair</span>
+                    <p>$340.00</p>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <a href="#"><img src="assets/images/product-10_grande.webp" /></a>
+                <div class="hero-price price">
+                    <span>after room chair</span>
+                    <p>$340.00</p>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wave">
+        <i class="fa-solid fa-water"></i>
+        <span>NEW ARRIVALS</span>
+        <a href="#">see all</a>
+    </div>
+    <div class="arrival">
+        <img src="assets/images/product-1_grande.webp" />
+        <img src="assets/images/product-2_grande.webp" />
+        <img src="assets/images/product-3_1b0b33c4-fd7d-483f-8a23-57a7a8088d96_grande.webp" />
+        <img src="assets/images/product-4_grande.webp" />
+        <img src="assets/images/product-5_grande.webp" />
+        <img src="assets/images/product-6_74d45e70-77e6-4a41-934e-0b4c05c765b9_grande.webp" />
+        <img src="assets/images/product-7_grande.webp" />
+        <img src="assets/images/product-9_469d705d-2f43-4fe1-938d-5557a1f18954_grande.webp" />
+    </div>
+    <div class="wave">
+        <i class="fa-solid fa-water"></i>
+        <span>about us</span>
+        <a href="#">see all</a>
     </div>
 </body>
 
